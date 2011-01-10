@@ -817,3 +817,9 @@ div.nosidebar#main > div#content > fieldset#target_version_graph > embed {
 THIRD-PARTY DECLARATIONS FOR NON PROJECT-MENU ITEMS  -  END
 *************************************************************************/
 
+
+/*************************************************************************
+Custom tweaks based on other themes
+*************************************************************************/
+
+h2, .wiki h2 { background-color: #EDF3FE; margin: -6px -10px 10px -15px; padding: 10px 20px; }
