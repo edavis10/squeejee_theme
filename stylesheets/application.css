@@ -823,3 +823,7 @@ Custom tweaks based on other themes
 *************************************************************************/
 
 h2, .wiki h2 { background-color: #EDF3FE; margin: -6px -10px 10px -15px; padding: 10px 20px; }
+#main { background: white; }
+#sidebar { padding-top: 20px; } /* lower the text below any content headers */
+#sidebar, #sidebar h1, #sidebar h2, #sidebar h3, #sidebar h4, #sidebar h5 { color: #666; text-shadow: none; }
+
