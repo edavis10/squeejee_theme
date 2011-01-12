@@ -836,6 +836,18 @@ body {background: white; }
 #sidebar { padding-top: 20px; } /* lower the text below any content headers */
 #sidebar, #sidebar h1, #sidebar h2, #sidebar h3, #sidebar h4, #sidebar h5 { color: #666; text-shadow: none; }
 
+/**** Project menus ****/
+/* Link color */
+#main-menu li a {color: #222222;}
+#main-menu li a.selected {color: #111111;}
+#main-menu li a:hover, #main-menu li a.selected:hover {color: #000000;}
+
+/* Background */
+#main-menu li {background: #DDDDDD; border: none;}
+#main-menu li:hover {background: #BBBBBB;}
+#main-menu li a, #main-menu li a:hover {}
+#main-menu li a.selected, #main-menu li a.selected:hover {background: #CCCCCC;}
+
 #top-menu { border-bottom: 2px solid #FF4719; }
 
 /* Project-menu first/last tab bottom roundings (for KHTML [Konqueror], Gecko [Mozilla] and WebKit [Safari/Chrome]) */
