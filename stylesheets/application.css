@@ -848,6 +848,8 @@ body {background: white; }
 #main-menu li a, #main-menu li a:hover {}
 #main-menu li a.selected, #main-menu li a.selected:hover {background: #CCCCCC;}
 
+#main-menu li a, #main-menu li a.selected, #main-menu li a:hover {text-shadow: none;} /* Remove drop shadow */
+
 #top-menu { border-bottom: 2px solid #FF4719; }
 
 /* Project-menu first/last tab bottom roundings (for KHTML [Konqueror], Gecko [Mozilla] and WebKit [Safari/Chrome]) */
