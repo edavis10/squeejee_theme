@@ -843,10 +843,10 @@ body {background: white; }
 #main-menu li a:hover, #main-menu li a.selected:hover {color: #000000;}
 
 /* Background */
-#main-menu li {background: #DDDDDD; border: none;}
-#main-menu li:hover {background: #BBBBBB;}
+#main-menu li {background-color: #DDDDDD; border: none;}
+#main-menu li:hover {background-color: #BBBBBB;}
 #main-menu li a, #main-menu li a:hover {}
-#main-menu li a.selected, #main-menu li a.selected:hover {background: #CCCCCC;}
+#main-menu li a.selected, #main-menu li a.selected:hover {background-color: #CCCCCC;}
 
 #main-menu li a, #main-menu li a.selected, #main-menu li a:hover {text-shadow: none;} /* Remove drop shadow */
 
