@@ -826,6 +826,8 @@ body {background: white; }
 #top-menu {background-color: white; color: black; }
 #top-menu a {color: black; }
 #top-menu a:hover {color: black; text-decoration: underline; text-shadow: 1px 1px 1px rgba(0,0,0,.5); }
+#header {background: none; color: black; }
+#header a {color: black; }
 #loggedas { color: #111; }
 
 #content {  background-image: none; }
