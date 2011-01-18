@@ -844,10 +844,10 @@ body {background: white; }
 #main-menu li a:hover, #main-menu li a.selected:hover {color: #000000;}
 
 /* Background */
-#main-menu li {background-color: #DDDDDD; border: none;}
-#main-menu li:hover {background-color: #BBBBBB;}
+#main-menu li {background-color: #FFFFFF; border-color: #DDDDDD; border-width: 1px 1px 1px 1px; }
+#main-menu li:hover {background-color: #DDDDDD;}
 #main-menu li a, #main-menu li a:hover {}
-#main-menu li a.selected, #main-menu li a.selected:hover {background-color: #CCCCCC;}
+#main-menu li a.selected, #main-menu li a.selected:hover {background-color: #EEEEEE;}
 
 #main-menu li a, #main-menu li a.selected, #main-menu li a:hover {text-shadow: none;} /* Remove drop shadow */
 
