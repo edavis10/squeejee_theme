@@ -90,6 +90,7 @@ a:hover {
 #main-menu {
     right: 6px;
     margin-right: 0;
+    left: 11px;
 }
 
 /* Project-menu link containers (ul > li == tab) */
