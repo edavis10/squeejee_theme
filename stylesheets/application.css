@@ -33,11 +33,11 @@ a:hover {
 #main {
     margin: 0;
     background: #fff url(../images/shadow_top.png) top left repeat-x;
-
+    padding-top: 1em;
 }
 
 #content {
-    margin: 1em 1.4em 1em 1em;
+    margin: 0em 1.4em 1em 1em;
     width: 77%;
     overflow: auto;
     border-top: solid 1px #fff;
@@ -766,7 +766,10 @@ body {background: white; }
 #content > h2 {display: none;} /* Title of the content section */
 
 } /* Title of the content section */
-#main { background: white; }
+#main { 
+  background: white; 
+  padding-top: 1em;
+}
 #sidebar { padding-top: 20px; } /* lower the text below any content headers */
 #sidebar, #sidebar h1, #sidebar h2, #sidebar h3, #sidebar h4, #sidebar h5 { color: #666; text-shadow: none; }
 #sidebar a { color: #000000; }
