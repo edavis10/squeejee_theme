@@ -787,16 +787,3 @@ body {background: white; }
 #main-menu li a, #main-menu li a.selected, #main-menu li a:hover {text-shadow: none;} /* Remove drop shadow */
 
 #top-menu { border-bottom: 2px solid #FF4719; }
-
-/* Project-menu first/last tab bottom roundings (for KHTML [Konqueror], Gecko [Mozilla] and WebKit [Safari/Chrome]) */
-#main-menu li:first-child  {
-    -khtml-border-radius-bottomleft: 5px;
-    -moz-border-radius-bottomleft: 5px;
-    -webkit-border-bottom-left-radius: 5px;
-}
-
-#main-menu li:last-child {
-    -khtml-border-radius-bottomright: 5px;
-    -moz-border-radius-bottomright: 5px;
-    -webkit-border-bottom-right-radius: 5px;
-}
