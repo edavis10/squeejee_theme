@@ -98,6 +98,7 @@ a:hover {
 #main-menu li {
     background: #111 url(../images/bottom_shine.png) 0px -40px repeat-x;
     border: solid 1px #333;
+    border-bottom: none;
     border-width: 1px 1px 0px 0px;
     font-size: 1.00em;
     font-family: "Myriad Pro", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
@@ -118,7 +119,7 @@ a:hover {
 #main-menu li a:hover {
     background: none;
     color: #aaa;
-    padding: 5px 10px 5px 10px;
+    padding: 5px 10px 3px 10px;
     font-weight: normal;
 }
 
