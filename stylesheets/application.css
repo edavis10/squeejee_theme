@@ -43,7 +43,10 @@ a:hover {
     border-top: solid 1px #fff;
     border-right: solid 1px #fff;
     -webkit-box-shadow: 5px 5px 10px rgba(0,0,0,.8);
+    padding-top: 2.5em;
 }
+
+.contextual {margin-top: -2em;}
 
 /*
 * Top-menu
@@ -798,5 +801,3 @@ body {background: white; }
 #top-menu { border-bottom: 2px solid #FF4719; }
 
 p.subtitle {margin-top: 0;}
-
-.nodata, .warning {margin-top: 2em;}
