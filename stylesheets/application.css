@@ -799,5 +799,3 @@ body {background: white; }
 #main-menu li a, #main-menu li a.selected, #main-menu li a:hover {text-shadow: none;} /* Remove drop shadow */
 
 #top-menu { border-bottom: 2px solid #FF4719; }
-
-p.subtitle {margin-top: 0;}
