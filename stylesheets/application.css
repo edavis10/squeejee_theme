@@ -760,7 +760,7 @@ body {background: white; }
 
 #content {  background-image: none; border: 1px solid #000; -webkit-box-shadow: 2px 2px 4px rgba(0,0,0,.8); }
 
-#content > h2 {font-size: 3em; text-shadow: 1px 1px 1px rgba(0,0,0,.5); background-color: #EDF3FE; margin: -6px -10px 10px -15px; padding: 10px 20px; } /* Title of the content section */
+#content > h2 {display: none;} /* Title of the content section */
 #main { background: white; }
 #sidebar { padding-top: 20px; } /* lower the text below any content headers */
 #sidebar, #sidebar h1, #sidebar h2, #sidebar h3, #sidebar h4, #sidebar h5 { color: #666; text-shadow: none; }
