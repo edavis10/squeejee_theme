@@ -885,7 +885,8 @@ Additional wiki styles
   font-weight: bold;
 }
 
-.see-also, .caution, .important, .info, .tip, .note {
+p.see-also,    p.caution,    p.important,    p.info,    p.tip,    p.note,
+span.see-also, span.caution, span.important, span.info, span.tip, span.note {
   display: block;
   margin-top: .5em;
   margin-bottom: .5em;
@@ -893,7 +894,8 @@ Additional wiki styles
   padding: 4px 4px 4px 48px;
   min-height: 33px;
 }
-.smallsee-also, .smallcaution, .smallimportant, .smallinfo, .smalltip, .smallnote {
+p.smallsee-also,    p.smallcaution,    p.smallimportant,    p.smallinfo,    p.smalltip,    p.smallnote,
+span.smallsee-also, span.smallcaution, span.smallimportant, span.smallinfo, span.smalltip, span.smallnote {
   display: block;
   margin-top: .5em;
   margin-bottom: .5em;
@@ -902,56 +904,56 @@ Additional wiki styles
   min-height: 24px;
 }
 
-.see-also {
+p.see-also, span.see-also {
   background: url(../images/wiki_styles/see-also.png) 4px 4px no-repeat #f5fffa;
   border: 1px solid #AAB1AD;
 }
-.smallsee-also {
+p.smallsee-also, span.smallsee-also {
   background: url(../images/wiki_styles/see-also_small.png) 4px 4px no-repeat #f5fffa;
   border: 1px solid #AAB1AD;
 }
 
-.caution {
+p.caution, span.caution {
   background: url(../images/wiki_styles/caution.png) 4px 6px no-repeat #f5fffa;
   border: 1px solid #AAB1AD;
 }
-.smallcaution {
+p.smallcaution, span.smallcaution {
   background: url(../images/wiki_styles/caution_small.png) 4px 4px no-repeat #f5fffa;
   border: 1px solid #AAB1AD;
 }
 
-.important {
+p.important, span.important {
   background: url(../images/wiki_styles/important.png) 4px 7px no-repeat #F0F8FF;
   border: 1px solid #C1C8CF;
 }
-.smallimportant {
+p.smallimportant, span.smallimportant {
   background: url(../images/wiki_styles/important_small.png) 4px 6px no-repeat #F0F8FF;
   border: 1px solid #C1C8CF;
 }
 
-.info {
+p.info, span.info {
   background: url(../images/wiki_styles/info.png) 4px 4px no-repeat #FFFFE0;
   border: 1px solid #FFFF00;
 }
-.smallinfo {
+p.smallinfo, span.smallinfo {
   background: url(../images/wiki_styles/info_small.png) 4px 4px no-repeat #FFFFE0;
   border: 1px solid #FFFF00;
 }
 
-.tip {
+p.tip, span.tip {
   background: url(../images/wiki_styles/tip.png) 4px 4px no-repeat #F5FFFA;
   border: 1px solid #C7CFCA;
 }
-.smalltip {
+p.smalltip, span.smalltip {
   background: url(../images/wiki_styles/tip_small.png) 4px 5px no-repeat #F5FFFA;
   border: 1px solid #C7CFCA;
 }
 
-.note {
+p.note, span.note {
   background: url(../images/wiki_styles/note.png) 6px 4px no-repeat #F5FFFA;
   border: 1px solid #C7CFCA;
 }
-.smallnote {
+p.smallnote, span.smallnote {
   background: url(../images/wiki_styles/note_small.png) 5px 4px no-repeat #F5FFFA;
   border: 1px solid #C7CFCA;
 }
