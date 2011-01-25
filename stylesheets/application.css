@@ -153,19 +153,31 @@ a:hover {
 /* Redmine core project-menu links */
 #main-menu li a.overview,
 #main-menu li a.overview:hover {
-    background: url(../images/fugue/document-text-image.png) 6px center no-repeat;
+    background: url(../images/directions.png) 6px center no-repeat;
     padding-left: 26px;
 }
 
 #main-menu li a.activity,
 #main-menu li a.activity:hover {
-    background: url(../images/fugue/lightning.png) 6px center no-repeat;
+    background: url(../images/fugue/monitor.png) 6px center no-repeat;
+    padding-left: 26px;
+}
+
+#main-menu li a.calendar,
+#main-menu li a.calendar:hover {
+    background: url(../images/fugue/calendar-month.png) 6px center no-repeat;
+    padding-left: 26px;
+}
+
+#main-menu li a.gantt,
+#main-menu li a.gantt:hover {
+    background: url(../images/gantt.png) 6px center no-repeat;
     padding-left: 26px;
 }
 
 #main-menu li a.roadmap,
 #main-menu li a.roadmap:hover {
-    background: url(../images/fugue/map-pin.png) 6px center no-repeat;
+    background: url(../images/milestones.png) 6px center no-repeat;
     padding-left: 26px;
 }
 
@@ -183,7 +195,7 @@ a:hover {
 
 #main-menu li a.news,
 #main-menu li a.news:hover {
-    background: url(../images/fugue/newspaper.png) 6px center no-repeat;
+    background: url(../images/feed.png) 6px center no-repeat;
     padding-left: 26px;
 }
 
