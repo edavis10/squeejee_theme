@@ -150,6 +150,79 @@ a:hover {
     -webkit-border-top-right-radius: 5px;
 }
 
+/* Redmine core project-menu links */
+#main-menu li a.overview,
+#main-menu li a.overview:hover {
+    background: url(../images/fugue/document-text-image.png) 6px center no-repeat;
+    padding-left: 26px;
+}
+
+#main-menu li a.activity,
+#main-menu li a.activity:hover {
+    background: url(../images/fugue/lightning.png) 6px center no-repeat;
+    padding-left: 26px;
+}
+
+#main-menu li a.roadmap,
+#main-menu li a.roadmap:hover {
+    background: url(../images/fugue/map-pin.png) 6px center no-repeat;
+    padding-left: 26px;
+}
+
+#main-menu li a.issues,
+#main-menu li a.issues:hover {
+    background: url(../images/fugue/ticket.png) 6px center no-repeat;
+    padding-left: 26px;
+}
+
+#main-menu li a.new-issue,
+#main-menu li a.new-issue:hover {
+    background: url(../images/fugue/ticket--plus.png) 6px center no-repeat;
+    padding-left: 26px;
+}
+
+#main-menu li a.news,
+#main-menu li a.news:hover {
+    background: url(../images/fugue/newspaper.png) 6px center no-repeat;
+    padding-left: 26px;
+}
+
+#main-menu li a.documents,
+#main-menu li a.documents:hover {
+    background: url(../images/fugue/documents-text.png) 6px center no-repeat;
+    padding-left: 26px;
+}
+
+#main-menu li a.wiki,
+#main-menu li a.wiki:hover {
+    background: url(../images/fugue/document-horizontal-text.png) 6px center no-repeat;
+    padding-left: 26px;
+}
+
+#main-menu li a.boards,
+#main-menu li a.boards:hover {
+    background: url(../images/fugue/balloons.png) 6px center no-repeat;
+    padding-left: 26px;
+}
+
+#main-menu li a.files,
+#main-menu li a.files:hover {
+    background: url(../images/fugue/document-zipper.png) 6px center no-repeat;
+    padding-left: 26px;
+}
+
+#main-menu li a.repository,
+#main-menu li a.repository:hover {
+    background: url(../images/fugue/safe.png) 6px center no-repeat;
+    padding-left: 26px;
+}
+
+#main-menu li a.settings,
+#main-menu li a.settings:hover {
+    background: url(../images/fugue/equalizer.png) 6px center no-repeat;
+    padding-left: 26px;
+}
+
 /* Third-party project-menu links */
 
 /*************************************************************************
