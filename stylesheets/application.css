@@ -32,17 +32,19 @@ a:hover {
 
 #main {
     margin: 0;
+    background: #fff url(../images/shadow_top.png) top left repeat-x;
+    padding-top: 1em;
 }
 
 #content {
-    margin: 1em 1.4em 1em 1em;
+    margin: 0em 1.4em 1em 1em;
     width: 77%;
     overflow: auto;
-    background: #fff url(../images/shadow_top.png) top left repeat-x;
     border-top: solid 1px #fff;
     border-right: solid 1px #fff;
     -webkit-box-shadow: 5px 5px 10px rgba(0,0,0,.8);
 }
+
 
 /*
 * Top-menu
@@ -79,10 +81,6 @@ a:hover {
     padding: 0.5em 1em 2.3em 1em;
 }
 
-#header > h1 {
-    font-family: Verdana, sans-serif;
-}
-
 /*
 * Project-menu
 */
@@ -90,12 +88,14 @@ a:hover {
 #main-menu {
     right: 6px;
     margin-right: 0;
+    left: 11px;
 }
 
 /* Project-menu link containers (ul > li == tab) */
 #main-menu li {
     background: #111 url(../images/bottom_shine.png) 0px -40px repeat-x;
     border: solid 1px #333;
+    border-bottom: none;
     border-width: 1px 1px 0px 0px;
     font-size: 1.00em;
     font-family: "Myriad Pro", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
@@ -116,7 +116,7 @@ a:hover {
 #main-menu li a:hover {
     background: none;
     color: #aaa;
-    padding: 5px 10px 5px 10px;
+    padding: 5px 10px 3px 10px;
     font-weight: normal;
 }
 
@@ -153,19 +153,31 @@ a:hover {
 /* Redmine core project-menu links */
 #main-menu li a.overview,
 #main-menu li a.overview:hover {
-    background: url(../images/fugue/document-text-image.png) 6px center no-repeat;
+    background: url(../images/directions.png) 6px center no-repeat;
     padding-left: 26px;
 }
 
 #main-menu li a.activity,
 #main-menu li a.activity:hover {
-    background: url(../images/fugue/lightning.png) 6px center no-repeat;
+    background: url(../images/fugue/monitor.png) 6px center no-repeat;
+    padding-left: 26px;
+}
+
+#main-menu li a.calendar,
+#main-menu li a.calendar:hover {
+    background: url(../images/fugue/calendar-month.png) 6px center no-repeat;
+    padding-left: 26px;
+}
+
+#main-menu li a.gantt,
+#main-menu li a.gantt:hover {
+    background: url(../images/gantt.png) 6px center no-repeat;
     padding-left: 26px;
 }
 
 #main-menu li a.roadmap,
 #main-menu li a.roadmap:hover {
-    background: url(../images/fugue/map-pin.png) 6px center no-repeat;
+    background: url(../images/milestones.png) 6px center no-repeat;
     padding-left: 26px;
 }
 
@@ -183,7 +195,7 @@ a:hover {
 
 #main-menu li a.news,
 #main-menu li a.news:hover {
-    background: url(../images/fugue/newspaper.png) 6px center no-repeat;
+    background: url(../images/feed.png) 6px center no-repeat;
     padding-left: 26px;
 }
 
@@ -817,3 +829,52 @@ div.nosidebar#main > div#content > fieldset#target_version_graph > embed {
 THIRD-PARTY DECLARATIONS FOR NON PROJECT-MENU ITEMS  -  END
 *************************************************************************/
 
+
+/*************************************************************************
+Custom tweaks based on other themes
+*************************************************************************/
+
+body {background: white; }
+#top-menu {background-color: white; color: black; }
+#top-menu a {color: black; }
+#top-menu a:hover {color: black; text-decoration: underline; text-shadow: 1px 1px 1px rgba(0,0,0,.5); }
+#header {background: none; color: black; }
+#header a {color: black; }
+#top-menu #loggedas { color: black; }
+
+#content {  
+  background-image: none; 
+  -webkit-box-shadow: -0.6px -0.6px 6px grey; 
+}
+
+#content > h2 {
+  font-size: 1.5em; 
+  margin: -6px -10px 10px -15px; 
+  padding: 10px 20px; 
+} /* Title of the content section */
+
+#sidebar { padding-top: 20px; } /* lower the text below any content headers */
+#sidebar, #sidebar h1, #sidebar h2, #sidebar h3, #sidebar h4, #sidebar h5 { color: #666; text-shadow: none; }
+#sidebar a { color: #000000; }
+
+#footer, #footer a { color: #AAAAAA;}
+#footer a { color: #888888; }
+#footer a:hover { color: #888888; text-decoration: underline; }
+
+
+
+/**** Project menus ****/
+/* Link color */
+#main-menu li a {color: #222222;}
+#main-menu li a.selected {color: #111111;}
+#main-menu li a:hover, #main-menu li a.selected:hover {color: #000000;}
+
+/* Background */
+#main-menu li {background-color: #FFFFFF; border-color: #DDDDDD; border-width: 1px 1px 1px 1px; }
+#main-menu li:hover {background-color: #DDDDDD;}
+#main-menu li a, #main-menu li a:hover {}
+#main-menu li a.selected, #main-menu li a.selected:hover {background-color: #EEEEEE;}
+
+#main-menu li a, #main-menu li a.selected, #main-menu li a:hover {text-shadow: none;} /* Remove drop shadow */
+
+#top-menu { border-bottom: 2px solid #FF4719; }
